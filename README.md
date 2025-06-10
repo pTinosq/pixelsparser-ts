@@ -1,11 +1,12 @@
 # pixelsparser (TypeScript)
 
 
-![GitHub issues](https://img.shields.io/github/issues/ptinosq/pixelsparser-go)
-![GitHub last commit](https://img.shields.io/github/last-commit/ptinosq/pixelsparser-go)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/pTinosq/pixelsparser-go/go.yml)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pTinosq/pixelsparser-go)
-![Codecov](https://img.shields.io/codecov/c/github/pTinosq/pixelsparser-go)
+![GitHub issues](https://img.shields.io/github/issues/ptinosq/pixelsparser-ts)
+![GitHub last commit](https://img.shields.io/github/last-commit/ptinosq/pixelsparser-ts)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/pTinosq/pixelsparser-ts/test.yml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/pTinosq/pixelsparser-ts/release.yml)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pTinosq/pixelsparser-ts)
+![Codecov](https://img.shields.io/codecov/c/github/pTinosq/pixelsparser-ts)
 
 A lightweight Go library for importing and handling Pixels JSON data. Offers a simple, type-safe API to parse and manipulate data efficiently, with no external dependencies.
 
