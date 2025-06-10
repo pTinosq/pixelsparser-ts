@@ -8,8 +8,7 @@
   },
   "name": "pixelsparser-ts",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000p\u0000i\u0000x\u0000e\u0000l\u0000s\u0000p\u0000a\u0000r\u0000s\u0000e\u0000r\u0000-\u0000t\u0000s\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  "description": "A lightweight TypeScript library for importing and handling Pixels JSON data. Offers a simple, type-safe API to parse and manipulate data efficiently, with no external dependencies.",
   "directories": {
     "test": "test"
   },
@@ -25,7 +24,7 @@
     "url": "git+https://github.com/pTinosq/pixelsparser-ts.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Constantinos Psomadakis",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
