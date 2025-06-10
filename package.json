@@ -1,4 +1,39 @@
 {
+  "name": "pixelsparser-ts",
+  "version": "1.0.4",
+  "description": "A lightweight TypeScript library for importing and handling Pixels JSON data. Offers a simple, type-safe API to parse and manipulate data efficiently, with no external dependencies.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pTinosq/pixelsparser-ts.git"
+  },
+  "keywords": [
+    "pixels",
+    "json",
+    "parser",
+    "typescript",
+    "data"
+  ],
+  "author": "Constantinos Psomadakis",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pTinosq/pixelsparser-ts/issues"
+  },
+  "homepage": "https://github.com/pTinosq/pixelsparser-ts#readme",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^24.0.0",
@@ -6,29 +41,7 @@
     "ts-jest": "^29.3.4",
     "typescript": "^5.8.3"
   },
-  "name": "pixelsparser-ts",
-  "version": "1.0.4",
-  "description": "A lightweight TypeScript library for importing and handling Pixels JSON data. Offers a simple, type-safe API to parse and manipulate data efficiently, with no external dependencies.",
-  "directories": {
-    "test": "test"
-  },
   "dependencies": {
     "undici-types": "^7.8.0"
-  },
-  "scripts": {
-    "build": "tsc",
-    "test": "jest --coverage"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pTinosq/pixelsparser-ts.git"
-  },
-  "keywords": [],
-  "author": "Constantinos Psomadakis",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/pTinosq/pixelsparser-ts/issues"
-  },
-  "homepage": "https://github.com/pTinosq/pixelsparser-ts#readme"
+  }
 }
