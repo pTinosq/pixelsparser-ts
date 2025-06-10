@@ -1,6 +1,6 @@
 {
   "name": "pixelsparser-ts",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A lightweight TypeScript library for importing and handling Pixels JSON data. Offers a simple, type-safe API to parse and manipulate data efficiently, with no external dependencies.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
